@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  
+    <title>Quiz</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">Quiz</a>
+              <p class="navbar-text navbar-right" hidden>0 Punkte</p>
+            </div>
+          </div>
+      </nav>
+      <div id="start_screen" class="jumbotron quiz_start" >
+        <h1>Herzlich Willkommen!</h1>
+        <p>Das Quiz startet sofort...</p>
+        <p><button class="start btn btn-primary btn-lg" role="button">Jetzt starten</button></p>
+      </div>
+      
+      <div id="question" class="jumbotron" hidden>
+        <h2>Frage <span id="qno"></span></h2>
+        <p id="question_text">...?</p>
+        <div class="row">
+          <div class="col-md-6"><p><button id="answer_a_btn" class="answer btn btn-default btn-lg btn-block" role="button">A: <span id="answer_a">!</span></button></p></div>
+          <div class="col-md-6"><p><button id="answer_c_btn" class="answer btn btn-default btn-lg btn-block" role="button">C: <span id="answer_c">.</span></button></p></div>
+        </div>
+        <div class="row">
+          <div class="col-md-6"><p><button id="answer_b_btn" class="answer btn btn-default btn-lg btn-block" role="button">B: <span id="answer_b">?</span></button></p></div>
+          <div class="col-md-6"><p><button id="answer_d_btn" class="answer btn btn-default btn-lg btn-block" role="button">D: <span id="answer_d">;</span></button></p></div>
+        </div>
+        <div class="row">
+          <div class="col-md-10"></div>
+          <div class="col-md-2">
+            <p><button id="answer_commit_btn" class="btn btn-primary btn-lg btn-block" role="button"><span id="commit_text">Antworten</span></button></p>
+            <p><button id="continue_btn" class="btn btn-primary btn-lg btn-block" role="button" hidden><span id="commit_text" >Weiter</span></button></p>
+          </div>
+        </div>
+      </div>
+      
+      <div id="over" class="jumbotron quiz_end" hidden>
+        <h1>Quiz Vorbei!</h1>
+        <p>Dein Punktestand ist: <span id="endpoints">0</span> von <span id="possiblepoints">0</span></p>
+        <p><button class="restart btn btn-primary btn-lg" role="button">Nochmal starten</button></p>
+      </div>
+    </div>
+      
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/quiz.js"></script>
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
