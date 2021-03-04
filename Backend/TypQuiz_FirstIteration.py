@@ -111,3 +111,10 @@ class TypQuiz(Form):
     UserTyp =
 
     submit = SubmitField("Submit")
+
+@app.route('/')
+def quiz():
+    return render_template('dasprojekt.html')
+
+if __name__ == '__dasprojekt__':
+ app.run(debug=True)
