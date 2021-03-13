@@ -1,0 +1,59 @@
+body {
+  background-color: #004aad;
+  color: white;
+
+}
+
+header {
+	background-color: #004aad;
+	color: #004aad;
+	padding: 10px;
+}
+
+.container {
+	
+	border: 5px;
+	padding: 25px;
+	margin: 5px;
+
+	flex-wrap: wrap;
+	justify-content: left;
+
+	
+	background-size: cover;
+}
+
+
+
+.nav-link {
+	color:  white;
+}
+
+button {
+	align-items: center;
+}
+
+img {
+	width: 384px;
+	height: 260px;
+	margin: 10px;
+	transition: all 1s;
+	
+}
+
+img:hover {
+	transform: scale(1.05);
+}
+
+p {
+	text-align: left;
+}
+
+a {
+	color: pink;
+}
+
+footer {
+	text-align: center;
+	color: #004a00;
+}
