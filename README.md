@@ -1,4 +1,4 @@
-# fineducation - Become a financial expert!
+# fineducation - become a financial expert!
 
 <img src="images/Fineducation.Logo.png" width="300">
 
