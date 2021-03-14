@@ -1,10 +1,8 @@
-# fineducation
+# fineducation - Become a financial expert!
 
 <img src="images/Fineducation.Logo.png" width="300">
 
-# Become a financial expert!
-
-# Brief summary of the project
+##  Brief summary of the project
 
 We see a fundamental problem in the lack of financial education at school and think that pupils should start learning how the financial system works at least in secondary school. In our opinion, financial knowledge should be established at the latest when the first salary or the first larger budget becomes available. Many young people see finance as a very complex subject. We believe that a financial education program for the younger generation must address different preferences and take into account that an overriding interest in financial topics does not necessarily exist. Therefore, our goal was to create a working solution that presents individually meaningful learning content depending on these preferences. 
 
