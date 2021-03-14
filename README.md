@@ -38,10 +38,10 @@ Fineducation has additional abilities. So, make sure, you find out on your own f
 
 ## Our Team
 
-Alina: Web Development Track
-Niklas: UX Design Track
-Malte: Data Science Track
-Max: Data Science Track
-Theresa: Data Science Track
+Alina: Web Development Track <br>
+Niklas: UX Design Track <br>
+Malte: Data Science Track <br>
+Max: Data Science Track <br>
+Theresa: Data Science Track <br>
 
 
