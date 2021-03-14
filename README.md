@@ -32,7 +32,7 @@ A snippet from the quiz (total: 10 questions) to find out the individual financi
 
 A snippet from the type analysis with matching link recommendations depending on the type
 
-<img src="images/Testresult.png"width="700"> 
+<img src="images/Testresult.png" width="700"> 
 
 Fineducation has additional abilities. So, make sure, you find out on your own financial type!
 
