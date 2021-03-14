@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+		
+	<title>Startseite</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="{{url_for('static', filename = 'style.css')}}">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<img src="{{url_for('static', filename = 'Fineducation.Logo.png')}}" id="idname" align="right" >
+			<ul class="nav nav-pills">
+			  <li class="nav-item">
+					<a class="nav-link active" href="/">Startseite</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/dasprojekt">Das Projekt</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/form">Test</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" aria-current="page" href="/finanztypen">Finanztypen</a>
+			  </li>
+			</ul>
+		</header>
+	
+		<h1>Fit for your future?</h1> <br>
+	
+		<p>
+			Die demographische Entwicklung zeigt, dass deine Rente in spätestens 30 Jahren nicht ausreichen wird, um deinen jetzigen Lebensstandard aufrechtzuerhalten...
+		</p>
+		
+		<b>Welcher Anlagetyp bist du?</b></br>
+		<b>Welches Finanzprodukt passt zu dir?</b></br>
+		<b>Wovon lässt du besser die Finger?</b> - <b>Finde es heraus!</b>
+		</p>
+
+		<button type="button" class="btn btn-outline-danger"><h3><a href="/form"> STARTE JETZT DEINEN TEST!</a></h3></button>
+		
+		<p></p><b>Disclaimer: Dies ist keine Anlageempfehlung!</b> <br>
+		<footer>
+			
+		</footer>
+	</div>
+</body>
+</html>
