@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Form</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="{{url_for('static', filename = 'style.css')}}">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <img src="{{url_for('static', filename = 'Fineducation.Logo.png')}}" id="idname" align="right" >
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Startseite</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/dasprojekt">Das Projekt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/form">Test</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/finanztypen">Finanztypen</a>
+                    </li>
+                </ul>
+            </header>
+
+<body>
+    <center><h1>Wie schätzt du dich ein?</h1></center> <!-- Header -->
+    <form method="POST" action="{{ url_for('form')}}" <!-- Build the form -->
+        {{ form.csrf_token }} <!-- Security component -->
+        <h5>1. Meine Hauptaufgabe bei der Verwaltung meines Geldes ist:</h5>
+        {{ form.q1 }} <!-- Inserting question into html page -->
+        <ul>
+            {% for error in form.q1.errors%}
+                <li style="color:red;">{{error}}</li>  <!-- Fail if no Input -->
+            {% endfor %}
+        </ul>
+        <h5>2. Wenn es um finanzielle Angelegenheiten geht, stimme ich welcher Aussage am meisten zu?</h5>
+        {{ form.q2 }}
+        <ul>
+            {% for error in form.q2.errors%}
+                <li style="color:red;">{{error}}</li> 
+            {% endfor %}
+        </ul>
+        <h5>3. Wenn ich mich für eine Investition entscheide, vertraue ich dem Rat von:</h5>
+        {{ form.q3 }}
+        <ul>
+            {% for error in form.q3.errors%}
+                <li style="color:red;">{{error}}</li> 
+            {% endfor %}
+        </ul>
+        <h5>4. Stell dir vor, du kaufst dir eine Aktie und du siehst, dass die Aktie mehr Wert gewinnt. Wie verhältst du dich:</h5>
+        {{ form.q4 }}
+        <ul>
+            {% for error in form.q4.errors%}
+                <li style="color:red;">{{error}}</li> 
+            {% endfor %}
+        </ul>
+        <h5>5. Welches Wort beschreibt dich im finanziellen Bereich am besten?</h5>
+        {{ form.q5 }}
+        <ul>
+            {% for error in form.q5.errors%}
+                <li style="color:red;">{{error}}</li> 
+            {% endfor %}
+        </ul>
+        <h5>6. Wenn es darum geht, einen Plan für den Umgang mit Geld zu verfolgen, was beschreibt deine Denkweise am besten?</h5>
+        {{ form.q6 }}
+        <ul>
+            {% for error in form.q6.errors%}
+                <li style="color:red;">{{error}}</li> 
+            {% endfor %}
+        </ul>
+        <h5>7. Ich fühle mich in Bezug auf mein Geld am sichersten, wenn:</h5>
+        {{ form.q7 }}
+        <ul>
+            {% for error in form.q7.errors%}
+                <li style="color:red;">{{error}}</li> 
+            {% endfor %}
+        </ul>
+        <h5>8. Wenn ein Freund eine &quot;sichere Sache&quot; als Investitionsidee vorschlägt, wäre meine Antwort:</h5>
+        {{ form.q8 }}
+        <ul>
+            {% for error in form.q8.errors%}
+                <li style="color:red;">{{error}}</li> 
+            {% endfor %}
+        </ul>
+        <h5>9. Stell dir vor, du hast Geld in eine Anlageform investiert. Kurzfristige Schwankungen meines angelegten Geldes führen dazu, dass ich:</h5>
+        {{ form.q9 }}
+        <ul>
+            {% for error in form.q9.errors%}
+                <li style="color:red;">{{error}}</li> 
+            {% endfor %}
+        </ul>
+        <h5>10. Angenommen du wärst bei einer Sportveranstaltung. Welche Position nimmst du am ehesten ein?</h5>
+        {{ form.q10 }}
+        <ul>
+            {% for error in form.q10.errors%}
+                <li style="color:red;">{{error}}</li> 
+            {% endfor %}
+        </ul>
+        <center><input type="submit" value="Auswerten"></center>
+   
+    </form>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Preserver</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="{{url_for('static', filename = 'style.css')}}">
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<img src="{{url_for('static', filename = 'Fineducation.Logo.png')}}" id="idname" align="right" >
+				<ul class="nav nav-pills">
+					<li class="nav-item">
+			    <a class="nav-link" href="/">Startseite</a>
+				</li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="/dasprojekt">Das Projekt</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="/form">Test</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link active" aria-current="page" href="/finanztypen">Finanztypen</a>
+			  </li>
+			</ul>
+		</header>
+		<h1>Fit for your future?</h1>
+		
+		<script type="text/javascript" src="script.js">
+		</script>
+
+		<p><h3><b>Dein Typ: Preserver</b></h3>
+		Preserver sind Anleger, die großen Wert auf finanzielle Sicherheit und auf den Erhalt des Vermögens legen.  Sie vermeiden es Risiken einzugehen, auch wenn diese das Vermögen möglicherweise vergrößern würden. Preserver überwachen ihr Vermögen genau und sind besorgt über Verluste und kurzfristige Wertentwicklung. Preserver haben Schwierigkeiten, Maßnahmen zu ergreifen, aus Angst die falschen Entscheidungen zu treffen.
+		
+		<p> <p><b>Häufige Probleme mit Preservern:</b> Eine Anlagestrategie sollte kurz-, mittel- und langfristige Ziele berücksichtigen. Durch die Überbewertung kurzfristiger Renditen riskiert ein Anleger, eine emotionale Entscheidung auf der Grundlage der kurzfristigen Performance zu treffen, was sich langfristig als nachteiliger erweisen kann.</p>
+
+		<p>Um dich weiterzubilden empfehlen wir dir Infomaterial, dass zu deinem Typ passt. Dabei sind die Finanzthemen Anleihen und (hochverzinsliche) Sparkonten besonders interessant für deinen Finanztyp.<br>
+		<img class="links" src="{{url_for('static', filename = 'Preserver.png')}}" id="preserver" alt="Banner">
+		<p><b>Anleihen</b>
+			<ul>
+				<li><a href="https://www.youtube.com/watch?v=3TgvUUbPVaA">Link 1</a> </li>
+				<li><a href="https://www.youtube.com/watch?v=c8PXAs0IoU4">Link 2</a></li>
+				<li><a href="https://www.finanzfluss.de/geldanlage/anleihen/">Link 3</a></li>
+			</ul>
+		<b>(hochverzinsliche) Sparkonten</b>
+			<ul>
+				<li><a href="https://www.youtube.com/watch?v=T-9O9BN4F9o">Link 1</a></li>
+				<li><a href="https://www.finanzfluss.de/blog/2-konten-modell/">Link 2</a></li>
+			</ul>
+		</p>
+		
+		<footer>
+
+		</footer>
+	</div>
+</body>
+</html>
