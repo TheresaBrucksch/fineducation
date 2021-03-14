@@ -3,17 +3,16 @@
 <img src="images/Fineducation.Logo.png" width="300">
 
 # Become a financial expert!
-## Brief summary of the project
+
+# Brief summary of the project
 
 We see a fundamental problem in the lack of financial education at school and think that pupils should start learning how the financial system works at least in secondary school. In our opinion, financial knowledge should be established at the latest when the first salary or the first larger budget becomes available. Many young people see finance as a very complex subject. We believe that a financial education program for the younger generation must address different preferences and take into account that an overriding interest in financial topics does not necessarily exist. Therefore, our goal was to create a working solution that presents individually meaningful learning content depending on these preferences. 
 
 ## Introduction
-### What is the idea / background of the project?
 
 We see a fundamental problem in the lack of financial education at school and think that pupils should start learning how the financial system works at least in secondary school. In our opinion, financial knowledge should be established at the latest when the first salary or the first larger budget becomes available. Many young people see finance as a very complex subject. We believe that a financial education program for the younger generation must address different preferences and take into account that an overriding interest in financial topics does not necessarily exist. Therefore, our goal was to create a working solution that presents individually meaningful learning content depending on these preferences. 
 
 ## Methodology
-### Which methods / tools from your learning tracks did you use to solve the problem? 
 
 In order to specify how our actual solution could look like, we first collected the ideas of the individual team members by each creating and presenting a user story that represented how a potential user would interact with the respective solution. We then combined the best ideas and derived both a best-case solution and a slightly less sophisticated but equally functional solution. 
 
