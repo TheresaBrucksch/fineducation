@@ -4,7 +4,7 @@
 
 ##  Brief summary of the project
 
-We see a fundamental problem in the lack of financial education at school and think that pupils should start learning how the financial system works at least in secondary school. In our opinion, financial knowledge should be established at the latest when the first salary or the first larger budget becomes available. Many young people see finance as a very complex subject. We believe that a financial education program for the younger generation must address different preferences and take into account that an overriding interest in financial topics does not necessarily exist. Therefore, our goal was to create a working solution that presents individually meaningful learning content depending on these preferences. 
+Fineducation offers a simple test that identifies the participant's financial behavior, financial interests and knowledge in order to provide information based on this data. To determine financial behavior, we use questions from a validated test that identifies the financial personality/profile and provides information about the person's risk/emotional attitude based on the results. In addition, depending on the participant's level of knowledge and interests, relevant learning materials( which already exits online) are displayed to help enhance financial knowledge.
 
 ## Introduction
 
